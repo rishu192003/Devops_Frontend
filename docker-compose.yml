@@ -4,4 +4,4 @@ services:
     container_name: frontend-login
     ports:
       - "80:80"
-    restart: unless-stopped
+    restart: always
