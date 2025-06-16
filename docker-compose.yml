@@ -1,0 +1,7 @@
+services:
+  frontend:
+    build: .
+    container_name: frontend-login
+    ports:
+      - "80:80"
+    restart: unless-stopped
